@@ -1,10 +1,12 @@
-# test-listen
-
 ![](https://cldup.com/xkoIJR2s2f.svg)
 
-Little helper to produce URLs with ephemeral ports. `async`/`await` ready.
+_**test-listen —**_ URLs with ephemeral ports. `async`/`await` ready.
 
 ## How to use
+
+Pass a `http.Server` to `test-listen` and it'll return a URL in the format `http://localhost:{port}`.
+
+Useful for running HTTP server testsuites:
 
 ```js
 import http from 'http';
