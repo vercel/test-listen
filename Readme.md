@@ -1,8 +1,6 @@
-![](https://cldup.com/xkoIJR2s2f.svg)
-
 _**test-listen —**_ URLs with ephemeral ports. `async`/`await` ready.
 
-## How to use
+## Example
 
 Pass a `http.Server` to `test-listen` and it'll return a URL in the format `http://localhost:{port}`.
 
