@@ -6,7 +6,9 @@
   "files": [
     "build"
   ],
-  "dependencies": {},
+  "dependencies": {
+    "request": "^2.74.0"
+  },
   "devDependencies": {
     "ava": "0.15.2",
     "babel-eslint": "6.1.2",
