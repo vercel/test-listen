@@ -1,6 +1,6 @@
-_**test-listen —**_ URLs with ephemeral ports. `async`/`await` ready.
+# test-listen [![Build Status](https://travis-ci.org/zeit/test-listen.svg?branch=master)](https://travis-ci.org/zeit/test-listen)
 
-[![Build Status](https://travis-ci.org/zeit/test-listen.svg?branch=master)](https://travis-ci.org/zeit/test-listen)
+URLs with ephemeral ports. `async`/`await` ready.
 
 ## Example
 
