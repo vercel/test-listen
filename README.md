@@ -1,5 +1,7 @@
 _**test-listen —**_ URLs with ephemeral ports. `async`/`await` ready.
 
+[![Build Status](https://travis-ci.org/zeit/test-listen.svg?branch=master)](https://travis-ci.org/zeit/test-listen)
+
 ## Example
 
 Pass a `http.Server` to `test-listen` and it'll return a URL in the format `http://localhost:{port}`.
