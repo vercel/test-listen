@@ -6,6 +6,9 @@
   "files": [
     "build"
   ],
+  "greenkeeper": {
+    "emails": false
+  },
   "dependencies": {
     "request": "^2.74.0"
   },
