@@ -22,7 +22,7 @@
     "eslint-config-standard": "5.3.5",
     "eslint-plugin-standard": "2.0.0",
     "gulp": "3.9.1",
-    "gulp-ava": "0.13.0",
+    "gulp-ava": "0.14.0",
     "gulp-babel": "6.1.2",
     "gulp-eslint": "3.0.1",
     "gulp-task-listing": "1.0.1",
