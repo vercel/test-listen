@@ -1,4 +1,7 @@
-# test-listen [![Build Status](https://travis-ci.org/zeit/test-listen.svg?branch=master)](https://travis-ci.org/zeit/test-listen)
+# test-listen
+
+[![Build Status](https://travis-ci.org/zeit/test-listen.svg?branch=master)](https://travis-ci.org/zeit/test-listen)
+[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
 
 URLs with ephemeral ports. `async`/`await` ready.
 
