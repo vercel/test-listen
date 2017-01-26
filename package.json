@@ -1,6 +1,6 @@
 {
   "name": "test-listen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Produce URLs to test HTTP servers with ephemeral ports",
   "main": "./index",
   "greenkeeper": {
