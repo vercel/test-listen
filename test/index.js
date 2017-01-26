@@ -2,7 +2,7 @@
 import http from 'http'
 import test from 'ava'
 import request from 'request-promise'
-import listen from '../lib/'
+import listen from '../'
 
 const srv = http.createServer((req, res) => res.end('1'))
 const srv2 = http.createServer((req, res) => res.end('2'))
