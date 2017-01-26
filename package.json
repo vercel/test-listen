@@ -2,36 +2,32 @@
   "name": "test-listen",
   "version": "1.0.0",
   "description": "Produce URLs to test HTTP servers with ephemeral ports",
-  "main": "./build/lib/index",
+  "main": "./dist/index",
   "files": [
     "build"
   ],
   "greenkeeper": {
     "emails": false
   },
-  "dependencies": {
-    "request": "^2.74.0"
-  },
   "devDependencies": {
+    "async-to-gen": "^1.3.1",
     "ava": "0.16.0",
-    "babel-plugin-syntax-async-functions": "6.13.0",
-    "babel-plugin-transform-async-to-generator": "6.8.0",
-    "babel-preset-es2015": "6.14.0",
-    "del": "2.2.2",
-    "gulp": "3.9.1",
-    "gulp-ava": "0.14.1",
-    "gulp-babel": "6.1.2",
-    "gulp-task-listing": "1.0.1",
+    "request": "^2.79.0",
     "request-promise": "4.1.1",
     "xo": "^0.17.0"
   },
   "scripts": {
-    "gulp": "gulp",
-    "test": "xo && gulp test"
+    "prepublish": "npm run build",
+    "pretest": "npm run build",
+    "build": "mkdir -p dist && async-to-gen lib/index.js > dist/index.js",
+    "test": "xo && ava"
   },
   "ava": {
+    "require": [
+      "async-to-gen/register"
+    ],
     "files": [
-      "build/test/*.js"
+      "test/index.js"
     ]
   },
   "xo": {
