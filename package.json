@@ -8,11 +8,13 @@
   },
   "devDependencies": {
     "ava": "0.16.0",
+    "husky": "^0.13.1",
     "request": "^2.79.0",
     "request-promise": "4.1.1",
     "xo": "^0.17.0"
   },
   "scripts": {
+    "precommit": "npm run test",
     "test": "xo && ava"
   },
   "xo": {
