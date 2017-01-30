@@ -1,16 +1,12 @@
 {
   "name": "test-listen",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Produce URLs to test HTTP servers with ephemeral ports",
-  "main": "./dist/index",
-  "files": [
-    "build"
-  ],
+  "main": "./index",
   "greenkeeper": {
     "emails": false
   },
   "devDependencies": {
-    "async-to-gen": "^1.3.1",
     "ava": "0.16.0",
     "husky": "^0.13.1",
     "request": "^2.79.0",
@@ -19,18 +15,7 @@
   },
   "scripts": {
     "precommit": "npm run test",
-    "prepublish": "npm run build",
-    "pretest": "npm run build",
-    "build": "mkdir -p dist && async-to-gen lib/index.js > dist/index.js",
     "test": "xo && ava"
-  },
-  "ava": {
-    "require": [
-      "async-to-gen/register"
-    ],
-    "files": [
-      "test/index.js"
-    ]
   },
   "xo": {
     "esnext": true,
