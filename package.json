@@ -3,6 +3,8 @@
   "version": "1.0.1",
   "description": "Produce URLs to test HTTP servers with ephemeral ports",
   "main": "./index",
+  "license": "MIT",
+  "repository": "zeit/test-listen",
   "greenkeeper": {
     "emails": false
   },
