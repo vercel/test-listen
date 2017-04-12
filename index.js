@@ -1,9 +1,7 @@
 module.exports = srv => new Promise((resolve, reject) => {
-  srv.listen(err => {
-    if (err) {
-      return reject(err)
-    }
+  srv.on('error', reject)
 
+  srv.listen(() => {
     const {port} = srv.address()
     resolve(`http://localhost:${port}`)
   })
