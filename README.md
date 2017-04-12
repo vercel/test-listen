@@ -15,6 +15,9 @@ npm install --save-dev test-listen
 
 Pass a `http.Server` to `test-listen` and it will return an URL in the format `http://localhost:{port}`.
 
+The second parameter can optionally be a hostname to return in the URL
+instead of `localhost`.
+
 Useful for running HTTP server testsuites:
 
 ```js
