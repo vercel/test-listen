@@ -39,7 +39,7 @@ It also works with Express:
 
 ```js
 const http = require('http')
-const express = require('experss')
+const express = require('express')
 const listen = require('test-listen')
 
 const srv = express()
