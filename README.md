@@ -1,8 +1,5 @@
 # test-listen
 
-[![Build Status](https://travis-ci.org/zeit/test-listen.svg?branch=master)](https://travis-ci.org/zeit/test-listen)
-[![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
-
 URLs with ephemeral ports. `async`/`await` ready.
 
 ## Usage
@@ -67,5 +64,5 @@ test('urls', async t => {
 
 ## Authors
 
-- Guillermo Rauch ([@rauchg](https://twitter.com/rauchg)) - [▲ZEIT](https://zeit.co)
-- Leo Lamprecht ([@notquiteleo](https://twitter.com/notquiteleo)) - [▲ZEIT](https://zeit.co)
+- Guillermo Rauch ([@rauchg](https://twitter.com/rauchg)) - [Vercel](https://vercel.com)
+- Leo Lamprecht ([@notquiteleo](https://twitter.com/notquiteleo)) - [Vercel](https://vercel.com)
