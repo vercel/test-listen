@@ -1,3 +1,6 @@
+> **Warning**
+> `test-listen` is deprecated. Please use [`async-listen`](https://github.com/vercel/async-listen) instead.
+
 # test-listen
 
 URLs with ephemeral ports. `async`/`await` ready.
